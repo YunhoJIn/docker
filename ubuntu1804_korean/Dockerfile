@@ -1,9 +1,4 @@
 FROM ubuntu:18.04
-
-# change source to nearest kakao repo
-ADD sources.list /home/setting/sources.list
-RUN mv /etc/apt/sources.list /etc/apt/sources_bk.list
-RUN cp /home/setting/sources.list /etc/apt/sources.list
  
 # basic system install
 RUN apt-get update 
