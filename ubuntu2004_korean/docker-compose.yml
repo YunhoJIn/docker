@@ -1,0 +1,14 @@
+version: '3.7'
+services:
+  ub:
+    build: .
+    container_name: ub1804
+    privileged: true
+    volumes:
+      - .:/home/ub1804
+    ports:
+      - 8080:8080
+    environment:
+        TZ: "Asia/Seoul"
+    hostname: ub1804
+    command: tail -f /dev/null
