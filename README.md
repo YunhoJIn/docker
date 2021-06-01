@@ -6,4 +6,4 @@ https://hub.docker.com/repository/docker/behind520/ubuntu_korean<br>
 
 # 2. MariaDB Images<br>
 https://hub.docker.com/repository/docker/behind520/mariadb_10_5_connect_engine<br>
-/mariadb10.5_connect/ : MariaDB 10.5 버전 connect Engine (Service 별로 실행 가능)
+/mariadb10.5_connect/ : MariaDB 10.5 버전 connect Engine (with ODBC, JDBC)
