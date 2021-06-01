@@ -1,0 +1,12 @@
+version: '3.1'
+services:
+    mgr:
+        build: ./
+        container_name: mariadb
+        privileged: true
+        volumes:
+          - ./home/mariadb:/home/mariadb
+        environment:
+            TZ: "Asia/Seoul"
+        hostname: mariadb
+        command: tail -f /dev/null
