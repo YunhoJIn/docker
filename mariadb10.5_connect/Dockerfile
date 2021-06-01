@@ -30,8 +30,8 @@ RUN set -ex; \
         software-properties-common
 		
 RUN curl https://mariadb.org/mariadb_release_signing_key.asc | apt-key add -
-RUN echo 'deb [arch=amd64] https://ftp.harukasan.org/mariadb/repo/10.5/ubuntu focal main' >> /etc/apt/sources.list.d/mariadb.list
-RUN echo 'deb-src https://ftp.harukasan.org/mariadb/repo/10.5/ubuntu focal main' >> /etc/apt/sources.list.d/mariadb.list
+RUN echo 'deb [arch=amd64] https://mirror.yongbok.net/mariadb/repo/10.5/ubuntu focal main' >> /etc/apt/sources.list.d/mariadb.list
+RUN echo 'deb-src https://mirror.yongbok.net/mariadb/repo/10.5/ubuntu focal main' >> /etc/apt/sources.list.d/mariadb.list
 RUN apt-get update 
 
 # set to language korean
