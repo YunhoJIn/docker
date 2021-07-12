@@ -1,7 +1,8 @@
 # Docker Images
  - 해당 파일의 상세 설명은<br>
     https://yhjin.tistory.com/category/Cloud/docker<br>
-    에 공유 되어 있습니다.<br>
+    에 공유 되어 있습니다.
+    
 # 1. Ubuntu Images<br>
 https://hub.docker.com/repository/docker/behind520/ubuntu_korean<br>
 /ubuntu1804_korean/ : 우분투 18.04 한글판<br>
